@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Extracted embeddings and local datasets
+features/
+data/
+*.npz
+
+# Checkpoints trained locally (the released model is kept)
+models/*.pth
+!models/mlp_antispoofing_spanish.pth
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
